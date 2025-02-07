@@ -1,0 +1,37 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.text_color {
+  color: #bbb8b8;
+}
+
+.css-ahgscz-MuiBottomNavigation-root {
+  background: #1c273b !important;
+  height: 70px !important;
+}
+
+.css-pfl37b-MuiTypography-root {
+  text-align: center !important;
+}
+
+.sdfsd {
+  color: #4f5e74;
+  font-size: 1.4rem;
+}
+
+.bot_img {
+  width: 100%;
+  height: 100%;
+}
+
+@media screen and (max-width: 400px) {
+  .text_size {
+    font-size: 0.8rem !important;
+  }
+  .MuiTypography-h4 {
+    font-size: 1.8rem !important;
+  }
+}
