@@ -26,7 +26,12 @@ export const BotsGrid = ({
   if (!data) return null
 
   return (
-    <Grid container spacing={1} justifyContent="center" sx={{ mt: 4 }}>
+    <Grid
+      container
+      spacing={1}
+      justifyContent="center"
+      sx={{ mt: 4, mb: '180px' }}
+    >
       {data.bots.map((bot: any, index: number) => (
         <Grid component="div" item key={index}>
           <BotsCard

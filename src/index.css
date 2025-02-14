@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+body {
+  color: #bbb8b8;
+  background-color: #132840;
+}
+
 .text_color {
   color: #bbb8b8;
 }
@@ -17,6 +22,9 @@
   text-align: center !important;
 }
 
+.css-1riwl57 {
+  background-color: #132840;
+}
 .sdfsd {
   color: #4f5e74;
   font-size: 1.4rem;
@@ -33,5 +41,8 @@
   }
   .MuiTypography-h4 {
     font-size: 1.8rem !important;
+  }
+  .css-j5zc2o-MuiBottomNavigationAction-label.Mui-selected {
+    display: none !important;
   }
 }

@@ -13,9 +13,9 @@ export const Layout: React.FC<LayoutProps> = ({ children }) => {
       sx={{
         display: 'flex',
         flexDirection: 'column',
-        minHeight: '100vh',
-        height: '100vh',
         backgroundColor: '#132840',
+        width: '100%',
+        overflowY: 'scroll',
       }}
     >
       <HeaderComponent />

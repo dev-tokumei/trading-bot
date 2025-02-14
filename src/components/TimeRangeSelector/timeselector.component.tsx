@@ -16,10 +16,12 @@ export const TimeRangeSelector: FC<TimeRangeSelectorPropsTypy> = ({
     <Box
       display="flex"
       alignItems="center"
-      gap={2}
+      gap={1}
       mt={2}
-      position="absolute"
-      bottom={80}
+      position="fixed"
+      bottom={70}
+      bgcolor={'#132840'}
+      p={'10px'}
     >
       <Typography variant="body1" color="gray">
         Time Range:
